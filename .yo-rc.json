@@ -1,0 +1,6 @@
+{
+  "generator-banner": {
+    "bannerType": "DCM",
+    "includeZepto": false
+  }
+}

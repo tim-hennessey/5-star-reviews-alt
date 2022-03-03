@@ -1,0 +1,89 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#banner {
+	background: #FFC220;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    #box, #product {
+        top:225px;
+    }
+
+    #shadow {
+        top:380px;
+        opacity:0;
+    }
+
+    #cta {
+        top:160px;
+        left:75px;
+        opacity:0;
+    }
+
+    #txt {
+       
+        opacity:0;
+    }
+
+    #elipse1{
+        width:836px;
+        height:836px;
+        background-color: #fff;
+        border-radius: 50%;
+        top:458px;
+        left: -268px;
+    }
+
+    #elipse2{
+        width:836px;
+        height:836px;
+        background-color: #0071DE;
+        border-radius: 50%;
+        top:-723px;
+        left: -124px;
+    }
+
+    #border {
+		display: block;
+		width: $banner-width;
+		height: $banner-height;
+        pointer-events: none;
+		outline: solid 1px #ccc;
+  		outline-offset: -1px;
+		z-index: 999;
+    }
+
+    .dot{
+        width:50px;
+        height:50px;
+        background: url(../images/heart.svg);
+        background-size: 100% 100%;
+        position:absolute;
+    }
+
+
+    #container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
